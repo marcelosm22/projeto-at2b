@@ -9,9 +9,9 @@ class PagesController < ApplicationController
   def missao_e_valores
   end
 
-  def consultoria
+  def sobre_nos
   end
 
-  def logistica_mailroom
+  def servicos
   end
 end
