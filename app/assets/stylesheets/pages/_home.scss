@@ -15,16 +15,17 @@
  padding-left: 5vw;
  padding-top: 8vh;
 
-
 }
 
 .hero h1{
-  font-size: 3vw;
+  font-size: 4vw;
+  text-shadow: 0.1vw 0.1vw 0.5vw black;
 
 }
 
 .hero p{
   font-size: 2vw;
+  text-shadow: 0.1vw 0.1vw 0.5vw black;
 }
 
 .but_hero{
@@ -54,3 +55,196 @@
   font-size: 1.2vw;
 
 }
+
+.solutions{
+ background-color: #0B1215;
+ height: 50vw;
+ align-items: center;
+ padding-top: 4vw;
+
+
+}
+.solutions h2{
+  text-align: left;
+  font-size: 3vw;
+  color: white;
+  padding-left: 5vw;
+
+
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+
+}
+
+//Card1
+
+.card1 {
+ width: 190px;
+ height: 254px;
+ border-radius: 20px;
+ margin:2vw;
+ background: #f5f5f5;
+ position: relative;
+ padding: 1.8rem;
+ border: 2px solid #c3c6ce;
+ transition: 0.5s ease-out;
+ overflow: visible;
+}
+.card_but1 {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+
+    //Hover
+
+    .card1:hover {
+      border-color: #008bf8;
+      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .card1:hover .card_but1 {
+      transform: translate(-50%, 50%);
+      opacity: 1;
+    }
+
+ //Card2
+
+ .card2 {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  margin:2vw;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ .card_but2 {
+   transform: translate(-50%, 125%);
+   width: 60%;
+   border-radius: 1rem;
+
+   border: none;
+   background-color: #008bf8;
+   color: #fff;
+   font-size: 1rem;
+   padding: .5rem 1rem;
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   opacity: 0;
+   transition: 0.3s ease-out;
+  }
+
+     //Hover
+
+     .card2:hover {
+       border-color: #008bf8;
+       box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+     }
+
+     .card2:hover .card_but2 {
+       transform: translate(-50%, 50%);
+       opacity: 1;
+     }
+
+ //Card3
+ .card3 {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  margin:2vw;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ .card_but3 {
+   transform: translate(-50%, 125%);
+   width: 60%;
+   border-radius: 1rem;
+   border: none;
+   background-color: #008bf8;
+   color: #fff;
+   font-size: 1rem;
+   padding: .5rem 1rem;
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   opacity: 0;
+   transition: 0.3s ease-out;
+  }
+
+     //Hover
+
+     .card3:hover {
+       border-color: #008bf8;
+       box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+     }
+
+     .card3:hover .card_but3 {
+       transform: translate(-50%, 50%);
+       opacity: 1;
+     }
+
+
+ //Card4
+ .card4 {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  margin:2vw;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ .card_but4 {
+   transform: translate(-50%, 125%);
+   width: 60%;
+   border-radius: 1rem;
+   border: none;
+   background-color: #008bf8;
+   color: #fff;
+   font-size: 1rem;
+   padding: .5rem 1rem;
+   position: absolute;
+   left: 50%;
+   bottom: 0;
+   opacity: 0;
+   transition: 0.3s ease-out;
+  }
+
+     //Hover
+
+     .card4:hover {
+       border-color: #008bf8;
+       box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+     }
+
+     .card4:hover .card_but4 {
+       transform: translate(-50%, 50%);
+       opacity: 1;
+     }
