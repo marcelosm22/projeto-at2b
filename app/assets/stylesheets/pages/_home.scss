@@ -1,0 +1,56 @@
+
+//Hero
+.hero {
+
+ background-image:url('banner1.png');
+ background-size: cover;
+ background-position: center;
+ height: 49vh;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: left;
+ align-items: left;
+ text-align: left;
+ padding-left: 5vw;
+ padding-top: 8vh;
+
+
+}
+
+.hero h1{
+  font-size: 3vw;
+
+}
+
+.hero p{
+  font-size: 2vw;
+}
+
+.but_hero{
+  display: flex;
+  gap: 2vw;
+  margin-top: 1vw;
+
+
+}
+
+.but_sm{
+  background-color: white;
+  padding: 0.35vw;
+  border-radius: 0.5vw;
+  color: #03045E;
+  text-decoration: none;
+  font-size: 1.2vw;
+
+}
+
+.but_sn{
+  text-decoration: none;
+  padding: 0.4vw;
+  border-radius: 0.5vw;
+  color: white ;
+  border: 0.2vw solid #f7f7f7;
+  font-size: 1.2vw;
+
+}
