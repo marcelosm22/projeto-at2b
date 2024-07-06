@@ -5,8 +5,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   root to: "pages#home"
   get "/missao-e-valores", to: "pages#missao_e_valores"
-  get "/consultoria", to: "pages#consultoria"
-  get "/logistica-mailroom", to: "pages#logistica_mailroom"
   get "/contato", to: "pages#contato"
+  get "/sobre-nos", to: "pages#sobre_nos"
+  get "/servicos", to: "pages#servicos"
 
 end
