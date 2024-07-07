@@ -1,7 +1,11 @@
 
 .navbar {
   background: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05)
+
+
 }
+
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
@@ -15,5 +19,21 @@
 }
 
 .navbar-nav {
-  margin-left: 30%;
+  margin-left: 25%;
+}
+
+.nav-link {
+  border-radius: 0.5vw;
+  margin-right: 0.3vw;
+  margin-left: 0.3vw;
+
+}
+
+
+
+.nav-link:hover{
+  color: white;
+  background-color: #03045E;
+  transform: scale(1.1);
+  transition: .4s;
 }
