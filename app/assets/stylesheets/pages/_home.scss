@@ -18,7 +18,7 @@
 }
 
 .hero h1{
-  font-size: 4vw;
+  font-size: 3.5vw;
   text-shadow: 0.1vw 0.1vw 0.5vw black;
 
 }
@@ -67,7 +67,7 @@
 .solutions h2{
   text-align: left;
   font-size: 3vw;
-  color: white;
+  color: #0B1215;
   padding-left: 5vw;
 
 
@@ -87,7 +87,7 @@
  height: 254px;
  border-radius: 20px;
  margin:2vw;
- background: #f5f5f5;
+ background-image: url('assistech.png');
  position: relative;
  padding: 1.8rem;
  border: 2px solid #c3c6ce;
@@ -130,7 +130,7 @@
   height: 254px;
   border-radius: 20px;
   margin:2vw;
-  background: #f5f5f5;
+  background-image: url('epsonori.png');
   position: relative;
   padding: 1.8rem;
   border: 2px solid #c3c6ce;
@@ -172,7 +172,7 @@
   height: 254px;
   border-radius: 20px;
   margin:2vw;
-  background: #f5f5f5;
+  background-image: url('enersist.png');
   position: relative;
   padding: 1.8rem;
   border: 2px solid #c3c6ce;
@@ -213,7 +213,7 @@
   width: 190px;
   height: 254px;
   border-radius: 20px;
-  background: #f5f5f5;
+  background-image: url('mailroom.png');
   margin:2vw;
   position: relative;
   padding: 1.8rem;
@@ -248,3 +248,44 @@
        transform: translate(-50%, 50%);
        opacity: 1;
      }
+
+     //Card 5
+     .card5 {
+      width: 190px;
+      height: 254px;
+      border-radius: 20px;
+      background-image: url('consultlog.png');
+      margin:2vw;
+      position: relative;
+      padding: 1.8rem;
+      border: 2px solid #c3c6ce;
+      transition: 0.5s ease-out;
+      overflow: visible;
+     }
+     .card_but5 {
+       transform: translate(-50%, 125%);
+       width: 60%;
+       border-radius: 1rem;
+       border: none;
+       background-color: #008bf8;
+       color: #fff;
+       font-size: 1rem;
+       padding: .5rem 1rem;
+       position: absolute;
+       left: 50%;
+       bottom: 0;
+       opacity: 0;
+       transition: 0.3s ease-out;
+      }
+
+         //Hover
+
+         .card5:hover {
+           border-color: #008bf8;
+           box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+         }
+
+         .card5:hover .card_but5 {
+           transform: translate(-50%, 50%);
+           opacity: 1;
+         }
