@@ -71,286 +71,93 @@
   border: 0.2vw solid #03045E;
 }
 
-.solutions{
- background-color: white;
- height: 50vw;
- align-items: center;
- padding-top: 4vw;
 
-
-}
-.solutions h2{
-  text-align: center;
-  font-size: 3vw;
-  color: #0B1215;
-  padding-left: 5vw;
-
-
-}
-
-.cards{
-  display: flex;
-  justify-content: center;
-  margin-top: 3vw;
-
-}
-
-.cards h6{
-  color: #000000;
-  display: none;
-  text-align: center;
-}
-
-
-//Card1
-
-.card1 {
- width: 190px;
- height: 254px;
- border-radius: 20px;
- margin:2vw;
- background-image: url('assistech.png');
- position: relative;
- padding: 1.8rem;
- border: 2px solid #c3c6ce;
- transition: 0.5s ease-out;
- overflow: visible;
-}
-
-.card_but1 {
-  transform: translate(-50%, 125%);
-  width: 60%;
-  border-radius: 1rem;
-  border: none;
-
-  background-color: #008bf8;
-  color: #fff;
-  font-size: 1rem;
-  padding: .5rem 1rem;
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  opacity: 0;
-  transition: 0.3s ease-out;
- }
-
-    //Hover
-
-    .card1:hover {
-      border-color: #008bf8;
-      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-      background-image: none;
-      background-color: #d5e8f8;
-    }
-
-    .card1:hover h6{
-      display: block;
-      text-align: center;
-      font-size: 22px;
-    }
-
-    .card1:hover .card_but1 {
-      transform: translate(-50%, -80%);
-      opacity: 1;
-    }
-
- //Card2
-
- .card2 {
-  width: 190px;
-  height: 254px;
-  border-radius: 20px;
-  margin:2vw;
-  background-image: url('epsonori.png');
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
-  overflow: visible;
- }
- .card_but2 {
-   transform: translate(-50%, 125%);
-   width: 60%;
-   border-radius: 1rem;
-
-   border: none;
-   background-color: #008bf8;
-   color: #fff;
-   font-size: 1rem;
-   padding: .5rem 1rem;
-   position: absolute;
-   left: 50%;
-   bottom: 0;
-   opacity: 0;
-   transition: 0.3s ease-out;
-  }
-
-     //Hover
-
-     .card2:hover {
-      border-color: #008bf8;
-      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-      background-image: none;
-      background-color: #d5e8f8;
-     }
-
-     .card2:hover h6{
-      display: block;
-      text-align: center;
-    }
-
-     .card2:hover .card_but2 {
-       transform: translate(-50%, -80%);
-       opacity: 1;
-     }
-
- //Card3
- .card3 {
-  width: 190px;
-  height: 254px;
-  border-radius: 20px;
-  margin:2vw;
-  background-image: url('enersist.png');
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
-  overflow: visible;
- }
- .card_but3 {
-   transform: translate(-50%, 125%);
-   width: 60%;
-   border-radius: 1rem;
-   border: none;
-   background-color: #008bf8;
-   color: #fff;
-   font-size: 1rem;
-   padding: .5rem 1rem;
-   position: absolute;
-   left: 50%;
-   bottom: 0;
-   opacity: 0;
-   transition: 0.3s ease-out;
-  }
-
-     //Hover
-
-     .card3:hover {
-      border-color: #008bf8;
-      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-      background-image: none;
-      background-color: #d5e8f8;
-     }
-
-     .card3:hover h6{
-      display: block;
-      text-align: center;
-    }
-
-     .card3:hover .card_but3 {
-       transform: translate(-50%, -80%);
-       opacity: 1;
-     }
-
-
- //Card4
- .card4 {
-  width: 190px;
-  height: 254px;
-  border-radius: 20px;
-  background-image: url('mailroom.png');
-  margin:2vw;
-  position: relative;
-  padding: 1.8rem;
-  border: 2px solid #c3c6ce;
-  transition: 0.5s ease-out;
-  overflow: visible;
- }
- .card_but4 {
-   transform: translate(-50%, 125%);
-   width: 60%;
-   border-radius: 1rem;
-   border: none;
-   background-color: #008bf8;
-   color: #fff;
-   font-size: 1rem;
-   padding: .5rem 1rem;
-   position: absolute;
-   left: 50%;
-   bottom: 0;
-   opacity: 0;
-   transition: 0.3s ease-out;
-  }
-
-     //Hover
-
-     .card4:hover {
-      border-color: #008bf8;
-      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-      background-image: none;
-      background-color: #d5e8f8;
-     }
-
-     .card4:hover h6{
-      display: block;
-      text-align: center;
-    }
-
-     .card4:hover .card_but4 {
-       transform: translate(-50%, -80%);
-       opacity: 1;
-     }
-
-     //Card 5
-     .card5 {
-      width: 190px;
-      height: 254px;
-      border-radius: 20px;
-      background-image: url('consultlog.png');
-      margin:2vw;
-      position: relative;
-      padding: 1.8rem;
-      border: 2px solid #c3c6ce;
-      transition: 0.5s ease-out;
-      overflow: visible;
-     }
-     .card_but5 {
-       transform: translate(-50%, 125%);
-       width: 60%;
-       border-radius: 1rem;
-       border: none;
-       background-color: #008bf8;
-       color: #fff;
-       font-size: 1rem;
-       padding: .5rem 1rem;
-       position: absolute;
-       left: 50%;
-       bottom: 0;
-       opacity: 0;
-       transition: 0.3s ease-out;
-      }
-
-         //Hover
-
-         .card5:hover {
-          border-color: #008bf8;
-          box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-          background-image: none;
-          background-color: #d5e8f8;
-         }
-
-         .card5:hover h6{
-          display: block;
-          text-align: center;
-        }
-
-         .card5:hover .card_but5 {
-           transform: translate(-50%, -80%);
-           opacity: 1;
-         }
 
 
    .swiper {
     width: 600px;
     height: 200px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+  .services-section {
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+
+  }
+
+  .services-header {
+    margin-bottom: 2rem;
+  }
+
+  .services-badge {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .services-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    background-color: #262626;
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease;
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .service-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #3c3c3c;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .service-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-link {
+    color: #32cd32;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .service-link:hover {
+    text-decoration: underline;
   }
