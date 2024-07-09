@@ -1,40 +1,61 @@
-
 .navbar {
   background: rgb(255, 255, 255);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05)
-
-
-}
-
-
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05);
 }
 
 .navbar-brand img {
   width: 150px;
+  vertical-align: middle; /* Ensure vertical alignment */
 }
 
 .navbar-logo {
+  /* Additional styling if needed */
 }
 
 .navbar-nav {
-  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 0.5rem;
 }
 
 .nav-link {
   border-radius: 0.5vw;
-  margin-right: 0.3vw;
-  margin-left: 0.3vw;
-
+  margin: 0 0.3vw;
+  padding: 0.5rem 1rem;
 }
 
-
-
-.nav-link:hover{
+.nav-link:hover {
   color: white;
   background-color: #03045E;
   transform: scale(1.1);
-  transition: .4s;
+  transition: .2s;
+}
+
+.navbar-brand-placeholder {
+  width: 150px; /* Same width as the logo */
+  flex-shrink: 0;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero-text {
+  margin: auto;
 }
