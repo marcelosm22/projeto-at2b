@@ -23,38 +23,92 @@
 
       <div class="card1">
         <img src="" alt="">
+        <h6>ASSISTÊNCIA TÉCNICA AUTORIZADA</h6>
 
+        <%= link_to servicos_path do %>
         <button class="card_but1">Saiba Mais</button>
+        <% end %>
 
     </div>
 
       <div class="card2">
         <img src="" alt="">
+        <h6>IMPRESSORAS</h6>
 
+        <%= link_to servicos_path do %>
         <button class="card_but2">Saiba Mais</button>
+        <% end %>
 
     </div>
 
       <div class="card3">
         <img src="" alt="">
+        <h6>IMPRESSORAS</h6>
 
+        <%= link_to servicos_path do %>
         <button class="card_but3">Saiba Mais</button>
+        <% end %>
 
     </div>
 
       <div class="card4">
         <img src="" alt="">
+        <h6>IMPRESSORAS</h6>
 
+        <%= link_to servicos_path do %>
         <button class="card_but4">Saiba Mais</button>
+        <% end %>
 
     </div>
 
     <div class="card5">
         <img src="" alt="">
+        <h6>IMPRESSORAS</h6>
 
+        <%= link_to servicos_path do %>
         <button class="card_but5">Saiba Mais</button>
+        <% end %>
 
     </div>
 
     </div>
 </section>
+
+<section class="carousel">
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="http://robocuts.com/wp-content/uploads/2012/01/600x200.png" alt=""></div>
+    <div class="swiper-slide"><%= image_tag("Logo NOBG teste.png", :alt => "navbar logo", :class => "navbar-logo") %></div>
+    <div class="swiper-slide"><%= image_tag("Logo NOBG teste.png", :alt => "navbar logo", :class => "navbar-logo") %>Slide 3</div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+
+</section>
+
+<script>const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>

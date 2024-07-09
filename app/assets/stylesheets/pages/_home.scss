@@ -38,12 +38,20 @@
 
 .but_sm{
   background-color: white;
-  padding: 0.35vw;
+  padding: 0.6vw;
   border-radius: 0.5vw;
-  color: #03045E;
+  color: #161616;
   text-decoration: none;
   font-size: 1.2vw;
+  transition: all 0.3s;
 
+}
+
+.but_sm:hover {
+  background: #315cfd;
+  color: white;
+  transform: scale(1.05);
+  transition: .2s;
 }
 
 .but_sn{
@@ -53,7 +61,14 @@
   color: white ;
   border: 0.2vw solid #f7f7f7;
   font-size: 1.2vw;
+}
 
+.but_sn:hover {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
+  transition: .2s;
+  border: 0.2vw solid #03045E;
 }
 
 .solutions{
@@ -65,7 +80,7 @@
 
 }
 .solutions h2{
-  text-align: left;
+  text-align: center;
   font-size: 3vw;
   color: #0B1215;
   padding-left: 5vw;
@@ -79,6 +94,13 @@
   margin-top: 3vw;
 
 }
+
+.cards h6{
+  color: #000000;
+  display: none;
+  text-align: center;
+}
+
 
 //Card1
 
@@ -94,6 +116,7 @@
  transition: 0.5s ease-out;
  overflow: visible;
 }
+
 .card_but1 {
   transform: translate(-50%, 125%);
   width: 60%;
@@ -116,10 +139,18 @@
     .card1:hover {
       border-color: #008bf8;
       box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+      background-image: none;
+      background-color: #d5e8f8;
+    }
+
+    .card1:hover h6{
+      display: block;
+      text-align: center;
+      font-size: 22px;
     }
 
     .card1:hover .card_but1 {
-      transform: translate(-50%, 50%);
+      transform: translate(-50%, -80%);
       opacity: 1;
     }
 
@@ -157,12 +188,19 @@
      //Hover
 
      .card2:hover {
-       border-color: #008bf8;
-       box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+      border-color: #008bf8;
+      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+      background-image: none;
+      background-color: #d5e8f8;
      }
 
+     .card2:hover h6{
+      display: block;
+      text-align: center;
+    }
+
      .card2:hover .card_but2 {
-       transform: translate(-50%, 50%);
+       transform: translate(-50%, -80%);
        opacity: 1;
      }
 
@@ -198,12 +236,19 @@
      //Hover
 
      .card3:hover {
-       border-color: #008bf8;
-       box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+      border-color: #008bf8;
+      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+      background-image: none;
+      background-color: #d5e8f8;
      }
 
+     .card3:hover h6{
+      display: block;
+      text-align: center;
+    }
+
      .card3:hover .card_but3 {
-       transform: translate(-50%, 50%);
+       transform: translate(-50%, -80%);
        opacity: 1;
      }
 
@@ -240,12 +285,19 @@
      //Hover
 
      .card4:hover {
-       border-color: #008bf8;
-       box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+      border-color: #008bf8;
+      box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+      background-image: none;
+      background-color: #d5e8f8;
      }
 
+     .card4:hover h6{
+      display: block;
+      text-align: center;
+    }
+
      .card4:hover .card_but4 {
-       transform: translate(-50%, 50%);
+       transform: translate(-50%, -80%);
        opacity: 1;
      }
 
@@ -281,11 +333,24 @@
          //Hover
 
          .card5:hover {
-           border-color: #008bf8;
-           box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+          border-color: #008bf8;
+          box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+          background-image: none;
+          background-color: #d5e8f8;
          }
 
+         .card5:hover h6{
+          display: block;
+          text-align: center;
+        }
+
          .card5:hover .card_but5 {
-           transform: translate(-50%, 50%);
+           transform: translate(-50%, -80%);
            opacity: 1;
          }
+
+
+   .swiper {
+    width: 600px;
+    height: 200px;
+  }
