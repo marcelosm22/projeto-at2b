@@ -13,13 +13,12 @@ footer {
   background-color: #0a1a2b;
   padding-top: 1.5vh;
   padding-bottom: 0.05vh;
+
 }
 
 .footer-section {
   color: #d8cdcd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05);
-
-
+  box-shadow: 0 0 1px 1px #000000
 }
 .footer-left {
   display: flex;
@@ -80,5 +79,4 @@ hr {
 .footer-link{
   color: white;
   margin-top: 0.7vw;
-  text-decoration: none;
 }
