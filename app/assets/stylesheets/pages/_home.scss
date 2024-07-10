@@ -1,42 +1,47 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-//Hero
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
 .hero {
-
- background-image:url('herov2.png');
- background-size: cover;
- background-position: bottom;
- height: 49vh;
- color: white;
- display: flex;
- flex-direction: column;
- justify-content: left;
- align-items: left;
- text-align: left;
- padding-left: 5vw;
- padding-top: 8vh;
-
+  background-image: url('herov2.png');
+  background-size: cover;
+  background-position: bottom;
+  height: 49vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding-left: 5vw;
+  padding-top: 8vh;
 }
 
-.hero h1{
-  font-size: 3.5vw;
-  text-shadow: 0.1vw 0.1vw 0.5vw black;
-
-}
-
-.hero p{
-  font-size: 2vw;
+.hero h1 {
+  font-size: 3vw;
   text-shadow: 0.1vw 0.1vw 0.5vw black;
 }
 
-.but_hero{
+.hero p {
+  font-size: 1.5vw;
+  text-shadow: 0.1vw 0.1vw 0.5vw black;
+}
+
+.but_hero {
   display: flex;
   gap: 2vw;
   margin-top: 1vw;
-
-
 }
 
-.but_sm{
+.but_sm {
   background-color: white;
   padding: 0.6vw;
   border-radius: 0.5vw;
@@ -44,21 +49,20 @@
   text-decoration: none;
   font-size: 1.2vw;
   transition: all 0.3s;
-
 }
 
 .but_sm:hover {
   background: #315cfd;
   color: white;
   transform: scale(1.05);
-  transition: .2s;
+  transition: 0.2s;
 }
 
-.but_sn{
+.but_sn {
   text-decoration: none;
   padding: 0.4vw;
   border-radius: 0.5vw;
-  color: white ;
+  color: white;
   border: 0.2vw solid #f7f7f7;
   font-size: 1.2vw;
 }
@@ -67,97 +71,197 @@
   background: #ffffff;
   color: rgb(0, 0, 0);
   transform: scale(1.05);
-  transition: .2s;
+  transition: 0.2s;
   border: 0.2vw solid #03045E;
+}
+
+.swiper {
+  width: 600px;
+  height: 200px;
+}
+
+.services-section {
+
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a1a2b;
+  color: #ffffff;
+  line-height: 1.6;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.services-header {
+  margin-bottom: 2rem;
+}
+
+.services-badge {
+  display: inline-block;
+  background-color: #102944;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.services-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background-color: #102944;
+
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #0a1a2b;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.service-link {
+  color: #32cd32;
+  text-decoration: none;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+.service-link:hover {
+  text-decoration: underline;
 }
 
 
 
+//Carousel
 
-   .swiper {
-    width: 600px;
-    height: 200px;
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #0a1a2b;
+}
+
+.carousel-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.carousel-text {
+  flex: 1;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+}
+
+.carousel-logos {
+  flex: 2;
+  overflow: hidden;
+  position: relative;
+  width: 2vw;
+}
+
+.logo-container {
+  display: flex;
+  width: 200%;
+  animation: scroll 20s linear infinite;
+}
+
+.logo-list {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.logo-list li {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+.logo-list img {
+  max-height: 50px;
+  display: block;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
   }
-
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  100% {
+    transform: translateX(-50%);
   }
+}
 
+.carousel-logos::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to right, #0a1a2b, transparent);
+}
 
-
-  .services-section {
-    padding: 2rem 1rem;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    background-color: #1a1a1a;
-    color: #ffffff;
-    line-height: 1.6;
-
-  }
-
-  .services-header {
-    margin-bottom: 2rem;
-  }
-
-  .services-badge {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 25px;
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-  }
-
-  .services-title {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-
-  .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-  }
-
-  .service-card {
-    background-color: #262626;
-    border-radius: 10px;
-    padding: 1.5rem;
-    text-align: left;
-    transition: transform 0.3s ease;
-  }
-
-  .service-card:hover {
-    transform: translateY(-10px);
-  }
-
-  .service-icon {
-    width: 50px;
-    height: 50px;
-    background-color: #3c3c3c;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-  }
-
-  .service-title {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .service-description {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .service-link {
-    color: #32cd32;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  .service-link:hover {
-    text-decoration: underline;
-  }
+.carousel-logos::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to left, #0a1a2b, transparent);
+}
+.epsonlogo{
+  height: 20px;
+  color: white;
+}
