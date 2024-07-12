@@ -184,6 +184,9 @@
   font-size: 1.5rem;
   padding-right: 2rem;
 }
+.carousel-text h2{
+  font-size: 1.25vw;
+}
 
 .carousel-logos {
   flex: 2;
@@ -253,4 +256,92 @@ section.sobre-nos-section .container {
 
 .container img {
   border-radius: 2vw;
+}
+
+.features-container {
+  display: grid;
+  width: 50%;
+
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  padding: 1rem;
+  background-color: transparent;
+  border: none;
+}
+.feature-card h1{
+  text-align: left;
+  font-size: 1vw;
+}
+
+.feature-card .icon {
+  font-size: 2rem;
+  color: #e83e8c;
+  margin-bottom: 1rem;
+
+}
+
+.highlight-card {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-image: url('your-image-path.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.highlight-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(232, 62, 140, 0.9); /* Adjust the opacity */
+  border-radius: 0.5rem;
+}
+
+.highlight-card .content {
+  position: relative;
+  z-index: 1;
+}
+
+.highlight-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.highlight-button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #e83e8c;
+}
+
+.cards{
+  display: flex;
+  gap: 4vw;
+  justify-content: center;
 }
