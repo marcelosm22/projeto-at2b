@@ -246,22 +246,9 @@
   background: linear-gradient(to left, #0a1a2b, transparent);
 }
 
-section.sobre-nos-section {
-  height: 47vh;
-}
-
-section.sobre-nos-section .container {
-  margin: 3vh auto;
-}
-
-.container img {
-  border-radius: 2vw;
-}
-
 .features-container {
   display: grid;
-  width: 50%;
-
+  width: 40%;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
@@ -284,9 +271,8 @@ section.sobre-nos-section .container {
 
 .feature-card .icon {
   font-size: 2rem;
-  color: #e83e8c;
+  color: #0e89db;
   margin-bottom: 1rem;
-
 }
 
 .highlight-card {
@@ -297,7 +283,7 @@ section.sobre-nos-section .container {
   text-align: center;
   padding: 2rem;
   border-radius: 0.5rem;
-  background-image: url('your-image-path.jpg');
+  background-image: url(pexels.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -311,7 +297,7 @@ section.sobre-nos-section .container {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(232, 62, 140, 0.9); /* Adjust the opacity */
+  background: #0e89db9a; /* Adjust the opacity */
   border-radius: 0.5rem;
 }
 
